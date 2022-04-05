@@ -7,13 +7,21 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     font-family: Arial;
+    min-height: 100vh;
+}
+
+footer{
+    margin-top: auto;
 }
 
 .logo{
     width: 75px;
     height: auto;
     margin-left: 2em;
+    padding-top: 1em;
 }
 
 .navbar{
@@ -27,10 +35,12 @@ body{
     list-style: none;
     margin-right: 2em;
     gap: 1em;
+    margin-top: -1em;
 }
 
 .navbar ul li a{
     text-decoration: none;
+    font-weight: bold;
     color: white;
 }
 
@@ -73,4 +83,51 @@ header{
 
 .presentation p{
     font-size: 1.5em;
+}
+
+.hero-container img{
+    width: 200px;
+    height: auto;
+}
+
+.content h2{
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 2em;
+    margin-top: 1em;
+}
+
+.heroes-container{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.hero-container{
+    text-align: center;
+}
+
+.content{
+    background-color: lightgoldenrodyellow;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em 0;
+    background-color: lightgray;
+    padding: 5em 0;
+}
+
+.quote{
+    width: 20em;
+    font-size: 2em;
+    font-style: italic;
+}
+
+.author{
+    width: fit-content;
+    margin-left: auto;
+    font-weight: bold;
 }
