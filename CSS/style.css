@@ -15,6 +15,12 @@ body{
 
 footer{
     margin-top: auto;
+    padding: 2em 0;
+    background-color: rgb(82, 82, 255);
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 1.25em;
 }
 
 .logo{
