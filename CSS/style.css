@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Arial');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial;
+}
+
+.logo{
+    width: 75px;
+    height: auto;
+    margin-left: 2em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2em;
+    gap: 1em;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.first-section-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation{
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.presentation-image{
+    width: 500px;
+    height: auto;
+    margin-right: 2em;
+}
+
+.presentation-button{
+    padding: 0.5em 2em;
+    border-radius: 0.5em;
+    border-style: none;
+    background-color: brown;
+    color: white;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.title{
+    margin-bottom: 0.5em;
+    font-size: 3em;
+}
+
+header{
+    background-color: rgb(82, 82, 255);
+    padding-bottom: 8em;
+    color: white;
+}
+
+.presentation p{
+    font-size: 1.5em;
+}

@@ -4,26 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
     <title>The Avengers</title>
 </head>
 <body>
     <header>
-        <img src="./images/Avengers_logo.png">
-        <nav>
+        <nav class="navbar">
+            <img class="logo" src="./images/Avengers_logo.png">
             <ul>
-                <li>Presentation</li>
-                <li>Avengers's quote</li>
-                <li>Sign up section</li>
+                <li><a href="#first-section">Presentation</a></li>
+                <li><a href="#second-section">Avengers's quote</a></li>
+                <li><a href="#third-section">Sign up section</a></li>
             </ul>
         </nav>
-        <div class="presentation">
-            <h3 class="title">THE AVENGERS</h3>
-            <p>Hi i'm Tony Stark and this is The Avengers's website, come and join our squad to defeat all villains in the city</p>
-            <button value="Sign up"></button>
-        </div>    
-        <img src="./images/marvel-avengers-wall.jpg">
+        <div class="first-section-box">
+            <div class="presentation" id="first-section">
+                <h2 class="title">THE AVENGERS</h3>
+                <p>This is The Avengers's website, come and join our squad to smash all villains in the city!</p>
+                <button class="presentation-button" type="button">Sign up</button>
+            </div>    
+            <img class="presentation-image" src="./images/marvel-avengers-wall.jpg">
+        </div>
     </header>
-    <div class="content">
+    <div class="content" id="second-section">
         <h3>Some members of The Avengers</h3>        
         <div class="hero-container">
             <h3>Captain america</h3>
@@ -50,10 +53,10 @@
             <p>Captain America</p>
         </div>
         <div>
-            <div class="sign-up-banner">
+            <div class="sign-up-banner" id="third-section">
                 <p>Join The Avengers!</p>
                 <p>Your place is here with us!</p>
-                <button value="Sign up"></button>
+                <button type="button">Sign up</button>
             </div>
         </div>
     </div>
